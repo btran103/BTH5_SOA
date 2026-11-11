@@ -1,0 +1,19 @@
+@BTH5_SOA_HostAddress = http://localhost:5206
+
+### 1. Báo cáo tổng hợp (Doanh thu, Chi phí, Lợi nhuận, Tồn kho)
+GET {{BTH5_SOA_HostAddress}}/api/Reports/summary
+Accept: application/json
+
+###
+
+### 2. Báo cáo theo sản phẩm
+GET {{BTH5_SOA_HostAddress}}/api/Reports/products
+Accept: application/json
+
+###
+
+### 3. Báo cáo đơn hàng
+GET {{BTH5_SOA_HostAddress}}/api/Reports/orders
+Accept: application/json
+
+###
